@@ -7,6 +7,7 @@ colorscheme for vim.
 
 The theme currently supports Bootstrap v3.1.1.
 
+A sample page, showing off the theme can be found in the ``sample`` directory.
 
 Usage
 ======
