@@ -30,11 +30,11 @@ files, then compile the CSS file using ``lessc``:
 Contributing
 =============
 
-Make changes to the ``molokai.less`` or ``mezzanine.less`` files, making sure
-to build the final CSS files, placing them in the ``dist/css/`` folder.
+Make changes to the ``molokai.less`` or ``mezzanine.less`` files. Make sure to
+build the final CSS files and place them in the ``dist/css/`` folder.
 
 
 .. _Bootstrap: http://www.getbootstrap.com
 .. _Django: https://www.djangoproject.com/
-.. _Mezzanine: http://mezzanine.jupo.org/
+.. _Mezzanine CMS: http://mezzanine.jupo.org/
 .. _Molokai:  https://github.com/tomasr/molokai
