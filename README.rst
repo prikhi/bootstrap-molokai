@@ -26,6 +26,7 @@ files, then compile the CSS file using ``lessc``:
 
     lessc molokai.less > bootstrap.css
 
+Add the ``-x`` flag to the ``lessc`` command to generate minified output.
 
 Contributing
 =============
