@@ -33,6 +33,10 @@ Contributing
 Make changes to the ``molokai.less`` or ``mezzanine.less`` files. Make sure to
 build the final CSS files and place them in the ``dist/css/`` folder.
 
+To upgrade the version of Bootstrap used, replace the files in the
+``bootstrap`` folder with the files from the new version. Make sure to bump the
+supported version number in this file.
+
 
 .. _Bootstrap: http://www.getbootstrap.com
 .. _Django: https://www.djangoproject.com/
