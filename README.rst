@@ -22,24 +22,23 @@ Tweaking and Compiling
 =======================
 
 To customize the colors, edit the ``molokai.less`` or ``mezzanine.less``
-files, then compile the CSS file using ``lessc``:
+files, then compile the CSS files using the ``build.sh`` script:
 
-    lessc molokai.less > bootstrap.css
+    ./build.sh
 
-Add the ``-x`` flag to the ``lessc`` command to generate minified output.
+The compiled files, along with minified version, are located in ``dist/css``.
 
 Contributing
 =============
 
 Make changes to the ``molokai.less`` or ``mezzanine.less`` files. Make sure to
-build the final CSS files and place them in the ``dist/css/`` folder.
+build the final CSS files using the ``build.sh`` script.
 
 To upgrade the version of Bootstrap used, replace the files in the
 ``bootstrap`` folder with the files from the new version. Make sure to bump the
-supported version number in this file.
+"Supported Version" number at the beginning of this file.
 
 
 .. _Bootstrap: http://www.getbootstrap.com
-.. _Django: https://www.djangoproject.com/
 .. _Mezzanine CMS: http://mezzanine.jupo.org/
 .. _Molokai:  https://github.com/tomasr/molokai
