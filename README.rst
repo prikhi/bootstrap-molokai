@@ -24,7 +24,7 @@ Tweaking and Compiling
 =======================
 
 To customize the colors, edit the ``molokai.less`` or ``mezzanine.less``
-files, then compile the CSS files using the ``build.sh`` script:
+files, then compile the CSS files using the ``build.sh`` script::
 
     ./build.sh
 
