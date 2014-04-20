@@ -2,3 +2,293 @@
 @import "bootstrap/less/bootstrap.less";
 
 /* Molokai Customizations */
+
+// Molokai Colors
+@molokai-background: #1B1D1E;
+@near-black: #080800;
+@near-white: #F8F8F0;
+@off-white: #C4BE89;
+@cyan: #66D9EF;
+@deep-blue: #13354A;
+@blue-gray: #293739;
+@light-blue: #7E8E91;
+@green: #A6E22E;
+@pale-yellow: #E6DB74;
+@orange: #FD971F;
+@red: #FF0000;
+@magenta: #F92672;
+
+
+// Molokai Grays
+@gray-darker: #232526;
+@gray-dark: #272822;
+@gray: #75715E;
+@gray-light: #808080;
+@gray-lighter: #BCBCBC;
+
+
+// Brands
+@brand-primary: @magenta;
+@brand-success: @green;
+@brand-warning: @orange;
+@brand-danger: @red;
+@brand-info: @cyan;
+
+
+// Scaffolding
+@body-bg: @molokai-background;
+@text-color: @near-white;
+@link-color: @green;
+
+
+// Typography
+@headings-color: @magenta;
+
+
+// Tables
+@table-bg: transparent;
+@table-bg-accent: lighten(@molokai-background, 5%);
+@table-bg-hover: @blue-gray;
+@table-bg-active: @component-active-bg;
+@table-border-color: @input-border;
+
+
+
+// Buttons
+@btn-default-color: @near-black;
+@btn-default-bg: @near-white;
+@btn-default-border: @light-blue;
+@btn-primary-color: @btn-default-color;
+@btn-success-color: @btn-default-color;
+@btn-warning-color: @btn-default-color;
+@btn-danger-color: @near-white;
+@btn-info-color: @btn-default-color;
+
+
+// Forms
+@input-bg: @gray-dark;
+@input-bg-disabled: @gray-darker;
+@input-color: @near-white;
+@input-border: @blue-gray;
+@input-border-focus: @magenta;
+@input-color-placeholder:        @gray-light;
+
+@legend-color: @gray-light;
+@legend-border-color: @input-border;
+
+@input-group-addon-bg: @gray;
+@input-group-addon-border-color: @input-border;
+
+
+// Dropdowns
+@dropdown-bg: @blue-gray;
+@dropdown-divider-bg: @near-black;
+
+@dropdown-link-color: @orange;
+@dropdown-link-active-color: @near-white;
+@dropdown-link-active-bg: @component-active-bg;
+@dropdown-link-hover-color: @near-white;
+@dropdown-link-hover-bg: darken(@dropdown-link-active-bg, 5%);
+
+@dropdown-header-color: @cyan;
+
+
+// Navbar
+@navbar-default-color: @molokai-background;
+@navbar-default-bg: @magenta;
+@navbar-default-border: darken(@navbar-default-bg, 30%);
+
+@navbar-default-link-color: @navbar-default-color;
+@navbar-default-link-active-color: @near-black;
+@navbar-default-link-active-bg: darken(@navbar-default-bg, 20%);
+@navbar-default-link-hover-color: @near-black;
+@navbar-default-link-hover-bg: darken(@navbar-default-bg, 10%);
+@navbar-default-link-disabled-color: @gray;
+@navbar-default-link-disabled-bg: @magenta;
+
+@navbar-default-brand-color: @near-white;
+
+@navbar-default-toggle-hover-bg: @navbar-default-link-hover-bg;
+@navbar-default-toggle-icon-bar-bg: @near-white;
+@navbar-default-toggle-border-color: @molokai-background;
+
+
+// Nav Tabs
+@nav-link-hover-bg: @gray-dark;
+@nav-disabled-link-color: @gray-light;
+@nav-disabled-link-hover-color: @gray-light;
+
+@nav-tabs-border-color: @near-white;
+@nav-tabs-link-hover-border-color: @gray-lighter;
+@nav-tabs-active-link-hover-bg: @body-bg;
+@nav-tabs-active-link-hover-color: @magenta;
+@nav-tabs-active-link-hover-border-color: @near-white;
+@nav-tabs-justified-link-border-color: @near-white;
+@nav-tabs-justified-active-link-border-color: @body-bg;
+
+@nav-pills-active-link-hover-bg: @component-active-bg;
+@nav-pills-active-link-hover-color: @near-black;
+
+
+// Pagination
+@pagination-color: @near-black;
+@pagination-bg: @magenta;
+@pagination-border: @pagination-color;
+@pagination-hover-bg: darken(@pagination-bg, 15%);
+@pagination-hover-color: @pagination-color;
+@pagination-hover-border: @pagination-border;
+@pagination-active-bg: @pagination-color;
+@pagination-active-color: @pagination-bg;
+@pagination-active-border: @pagination-border;
+@pagination-disabled-color: @gray-dark;
+@pagination-disabled-bg: @pagination-bg;
+@pagination-disabled-border: @pagination-border;
+
+
+// Pager
+@pager-bg: @gray-dark;
+@pager-border: @pagination-border;
+@pager-hover-bg: darken(@pagination-hover-bg, 10%);
+@pager-active-bg: @pagination-active-bg;
+@pager-active-color: @pagination-active-color;
+@pager-disabled-color: @gray-light;
+
+
+// Jumbotron
+@jumbotron-color: @green;
+@jumbotron-bg: @gray-darker;
+@jumbotron-heading-color: @magenta;
+
+
+// Form States
+@state-warning-text: @orange;
+@state-warning-bg: @near-black;
+@state-warning-border: darken(@orange, 30%);
+@state-danger-text: @red;
+@state-danger-bg: @state-warning-bg;
+@state-danger-border: darken(@red, 30%);
+@state-success-text: @green;
+@state-success-bg: @state-warning-bg;
+@state-success-border: darken(@green, 30%);
+@state-info-text: @cyan;
+@state-info-bg: @state-warning-bg;
+@state-info-border: darken(@cyan, 30%);
+
+
+// ToolTip
+@tooltip-color: @magenta;
+@tooltip-bg: @near-black;
+
+
+// Popover
+@popover-bg: @deep-blue;
+@popover-arrow-color: @deep-blue;
+
+
+// Labels
+@label-color: @near-black;
+@label-link-hover-color: @label-color;
+
+
+//Modal
+@modal-content-bg: @deep-blue;
+@modal-backdrop-bg: @near-black;
+
+
+// Progress bars
+@progress-bg: @blue-gray;
+
+
+// List Group
+@list-group-bg: @deep-blue;
+@list-group-border: darken(@list-group-bg, 10%);
+@list-group-hover-bg: darken(@list-group-bg, 10%);
+@list-group-active-color: @near-black;
+@list-group-active-bg: @magenta;
+@list-group-active-border: @list-group-border;
+@list-group-active-text-color: @near-black;
+@list-group-link-color: @green;
+@list-group-link-heading-color: @magenta;
+
+
+// Panels
+@panel-bg: @blue-gray;
+@panel-inner-border: darken(@panel-bg, 10%);
+@panel-footer-bg: darken(@panel-bg, 5%);
+
+@panel-default-text: @near-white;
+@panel-default-border: darken(@panel-bg, 30%);
+@panel-default-heading-bg: @panel-footer-bg;
+
+@panel-primary-text: @near-black;
+@panel-primary-border: darken(@panel-primary-heading-bg, 30%);
+
+@panel-danger-text: @red;
+
+
+// Thumbnails
+@thumbnail-border: @near-white;
+
+
+// Wells
+@well-bg: darken(@molokai-background, 4%);
+
+
+// Bades
+@badge-color: @near-black;
+@badge-link-hover-color: @badge-color;
+@badge-bg: @green;
+@badge-active-color: @near-black;
+@badge-active-bg: @badge-bg;
+
+
+// Breadcrumbs
+@breadcrumb-bg: @well-bg;
+@breadcrumb-color: @orange;
+@breadcrumb-active-color: @gray-lighter;
+@breadcrumb-separator: "/";
+
+
+// Code
+@code-color: @orange;
+@code-bg: @blue-gray;
+
+@kbd-color: @near-white;
+@kbd-bg: @gray-darker;
+
+@pre-bg: @gray-dark;
+@pre-color: @pale-yellow;
+@pre-border-color: darken(@gray-dark, 10%);
+
+
+// Type
+@headings-small-color: @gray-lighter;
+@blockquote-small-color: @gray-light;
+
+
+/* Fix Colors of Table Rows with Form States */
+.table-row-variant(success; @green);
+.table-row-variant(info; @cyan);
+.table-row-variant(warning; @orange);
+.table-row-variant(danger; @red);
+.set-element-state-colors(tr; @near-black; @near-black);
+.set-element-state-colors(td; @near-black; @near-black);
+
+
+/* Mixins */
+.set-element-state-colors(@element; @color; @link-color) {
+    @{element}.active,
+    @{element}.warning,
+    @{element}.info,
+    @{element}.danger,
+    @{element}.success {
+        color: @color;
+    }
+    @{element}.active a,
+    @{element}.warning a,
+    @{element}.info a,
+    @{element}.danger a,
+    @{element}.success a {
+        color: @link-color;
+    }
+}
