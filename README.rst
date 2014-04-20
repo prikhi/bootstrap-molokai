@@ -7,7 +7,8 @@ colorscheme for vim.
 
 The theme currently supports Bootstrap v3.1.1.
 
-A sample page, showing off the theme can be found in the ``sample`` directory.
+A sample page, showing off the theme can be found in the ``sample``
+directory(blatantly ripped from `Bootswatch`_).
 
 Usage
 ======
@@ -27,13 +28,14 @@ files, then compile the CSS files using the ``build.sh`` script:
 
     ./build.sh
 
-The compiled files, along with minified version, are located in ``dist/css``.
+The newly compiled files, along with their minified versions, will be output to
+the ``dist/css`` directory.
 
 Contributing
 =============
 
-Make changes to the ``molokai.less`` or ``mezzanine.less`` files. Make sure to
-build the final CSS files using the ``build.sh`` script.
+Make sure to build the final CSS files using the ``build.sh`` script before
+submitting a pull request.
 
 To upgrade the version of Bootstrap used, replace the files in the
 ``bootstrap`` folder with the files from the new version. Make sure to bump the
@@ -41,5 +43,6 @@ To upgrade the version of Bootstrap used, replace the files in the
 
 
 .. _Bootstrap: http://www.getbootstrap.com
+.. _Bootswatch: https://github.com/thomaspark/bootswatch
 .. _Mezzanine CMS: http://mezzanine.jupo.org/
 .. _Molokai:  https://github.com/tomasr/molokai
