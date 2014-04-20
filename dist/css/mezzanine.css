@@ -1,4 +1,4 @@
-/* Import the Molokai file */
+/* Import the Bootstrap Molokai base file */
 /* Import the Base Bootstrap Files */
 /*! normalize.css v3.0.0 | MIT License | git.io/normalize */
 html {
@@ -5886,3 +5886,108 @@ td.success a {
 }
 /* Mixins */
 /* Mezzanine Customizations */
+.navbar-text {
+  color: #f8f8f0 !important;
+}
+footer {
+  background-color: #111313;
+  border-top-color: #000000;
+}
+.blog-list-detail {
+  border-bottom-color: #fd971f;
+}
+.post-meta > a {
+  color: #fd971f;
+}
+.share-facebook,
+.share-twitter,
+.share-facebook:hover,
+.share-twitter:hover {
+  color: #f8f8f0;
+}
+.form-group > input[type="text"],
+.form-group > input[type="password"],
+.form-group > input[type="datetime"],
+.form-group > input[type="datetime-local"],
+.form-group > input[type="date"],
+.form-group > input[type="month"],
+.form-group > input[type="time"],
+.form-group > input[type="week"],
+.form-group > input[type="number"],
+.form-group > input[type="email"],
+.form-group > input[type="url"],
+.form-group > input[type="search"],
+.form-group > input[type="tel"],
+.form-group > input[type="color"],
+.form-group > select,
+.form-group > textarea {
+  color: #f8f8f0;
+  background-color: #272822;
+  border-color: #293739;
+}
+.form-group > input[type="text"]:focus,
+.form-group > input[type="password"]:focus,
+.form-group > input[type="datetime"]:focus,
+.form-group > input[type="datetime-local"]:focus,
+.form-group > input[type="date"]:focus,
+.form-group > input[type="month"]:focus,
+.form-group > input[type="time"]:focus,
+.form-group > input[type="week"]:focus,
+.form-group > input[type="number"]:focus,
+.form-group > input[type="email"]:focus,
+.form-group > input[type="url"]:focus,
+.form-group > input[type="search"]:focus,
+.form-group > input[type="tel"]:focus,
+.form-group > input[type="color"]:focus,
+.form-group > select:focus,
+.form-group > textarea:focus {
+  border-color: #f92672;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(249, 38, 114, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(249, 38, 114, 0.6);
+}
+.has-error > input[type="text"],
+.has-error > input[type="password"],
+.has-error > input[type="datetime"],
+.has-error > input[type="datetime-local"],
+.has-error > input[type="date"],
+.has-error > input[type="month"],
+.has-error > input[type="time"],
+.has-error > input[type="week"],
+.has-error > input[type="number"],
+.has-error > input[type="email"],
+.has-error > input[type="url"],
+.has-error > input[type="search"],
+.has-error > input[type="tel"],
+.has-error > input[type="color"],
+.has-error > select,
+.has-error > textarea {
+  border-color: #330000;
+}
+.has-error > input[type="text"]:focus,
+.has-error > input[type="password"]:focus,
+.has-error > input[type="datetime"]:focus,
+.has-error > input[type="datetime-local"]:focus,
+.has-error > input[type="date"]:focus,
+.has-error > input[type="month"]:focus,
+.has-error > input[type="time"]:focus,
+.has-error > input[type="week"]:focus,
+.has-error > input[type="number"]:focus,
+.has-error > input[type="email"]:focus,
+.has-error > input[type="url"]:focus,
+.has-error > input[type="search"]:focus,
+.has-error > input[type="tel"]:focus,
+.has-error > input[type="color"]:focus,
+.has-error > select:focus,
+.has-error > textarea:focus {
+  border-color: #330000;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(222, 0, 0, 0.6);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(222, 0, 0, 0.6);
+}
+.form-actions {
+  background-color: #1b1d1e;
+  border-color: #1b1d1e;
+}
+.comment-author {
+  border-color: #000000;
+  background-color: #293739;
+}
