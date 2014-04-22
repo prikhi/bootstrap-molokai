@@ -5889,6 +5889,9 @@ td.success a {
 .navbar-text {
   color: #f8f8f0 !important;
 }
+.tree .active > a {
+  background-color: #f92672;
+}
 footer {
   background-color: #111313;
   border-top-color: #000000;
