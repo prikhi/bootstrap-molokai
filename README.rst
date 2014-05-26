@@ -10,6 +10,9 @@ The theme currently supports Bootstrap v3.1.1.
 A sample page, showing off the theme can be found in the ``sample``
 directory(blatantly ripped from `Bootswatch`_).
 
+A live demo can be found at `http://sleepanarchy.com
+<http://sleepanarchy.com>`_.
+
 Usage
 ======
 
