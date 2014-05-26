@@ -94,24 +94,41 @@
 
 
 // Navbar
-@navbar-default-color: @molokai-background;
-@navbar-default-bg: @magenta;
+@navbar-default-color: @green;
+@navbar-default-bg: @gray-darker;
 @navbar-default-border: darken(@navbar-default-bg, 30%);
 
 @navbar-default-link-color: @navbar-default-color;
-@navbar-default-link-active-color: @near-black;
-@navbar-default-link-active-bg: darken(@navbar-default-bg, 20%);
-@navbar-default-link-hover-color: @near-black;
-@navbar-default-link-hover-bg: darken(@navbar-default-bg, 10%);
+@navbar-default-link-active-color: @near-white;
+@navbar-default-link-active-bg: darken(@navbar-default-bg, 5%);
+@navbar-default-link-hover-color: darken(@navbar-default-link-active-color, 2.5%);
+@navbar-default-link-hover-bg: lighten(@navbar-default-link-active-bg, 2.5%);
 @navbar-default-link-disabled-color: @gray;
 @navbar-default-link-disabled-bg: @magenta;
 
-@navbar-default-brand-color: @near-white;
+@navbar-default-brand-color: @magenta;
 
 @navbar-default-toggle-hover-bg: @navbar-default-link-hover-bg;
 @navbar-default-toggle-icon-bar-bg: @near-white;
-@navbar-default-toggle-border-color: @molokai-background;
+@navbar-default-toggle-border-color: @near-white;
 
+@navbar-inverse-color: @gray-darker;
+@navbar-inverse-bg: darken(@green, 10%);
+@navbar-inverse-border: darken(@navbar-inverse-bg, 30%);
+
+@navbar-inverse-link-color: @navbar-inverse-color;
+@navbar-inverse-link-active-color: @near-white;
+@navbar-inverse-link-active-bg: darken(@navbar-inverse-bg, 5%);
+@navbar-inverse-link-hover-color: darken(@navbar-inverse-link-active-color, 2.5%);
+@navbar-inverse-link-hover-bg: lighten(@navbar-inverse-link-active-bg, 2.5%);
+@navbar-inverse-link-disabled-color: @gray;
+@navbar-inverse-link-disabled-bg: @magenta;
+
+@navbar-inverse-brand-color: @near-black;
+
+@navbar-inverse-toggle-hover-bg: @navbar-inverse-link-hover-bg;
+@navbar-inverse-toggle-icon-bar-bg: @near-black;
+@navbar-inverse-toggle-border-color: @molokai-background;
 
 // Nav Tabs
 @nav-link-hover-bg: @gray-dark;
