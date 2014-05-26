@@ -284,10 +284,10 @@
 
 
 /* Fix Colors of Table Rows with Form States */
-.table-row-variant(success; @green);
-.table-row-variant(info; @cyan);
-.table-row-variant(warning; @orange);
-.table-row-variant(danger; @red);
+.table-row-variant(success; darken(@green, 10%));
+.table-row-variant(info; darken(@cyan, 10%));
+.table-row-variant(warning; darken(@orange, 10%));
+.table-row-variant(danger; darken(@red, 10%));
 .set-element-state-colors(tr; @near-black; @near-black);
 .set-element-state-colors(td; @near-black; @near-black);
 
